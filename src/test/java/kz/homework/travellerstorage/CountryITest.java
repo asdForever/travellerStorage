@@ -27,7 +27,9 @@ public class CountryITest {
 
     @Test
     public void test_createUser_validateDBAndS3() throws Exception {
-        final CountryDTO countryDTO = CountryDTO.builder().name("Kazakhstan").build();
+        final CountryDTO countryDTO = new CountryDTO();
+        countryDTO.setName("Kazakhstan");
+
         countryService.addCountry(countryDTO);
 
         mvc.perform(get("/v1/country"))
