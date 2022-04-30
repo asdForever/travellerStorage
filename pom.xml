@@ -14,7 +14,7 @@
     <groupId>kz.homework</groupId>
     <artifactId>travellerStorage</artifactId>
     <version>0.0.1</version>
-    <name>traveller-storage</name>
+    <name>traveller_storage</name>
     <description>travellerStorage</description>
 
     <properties>
