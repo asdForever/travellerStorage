@@ -33,3 +33,7 @@ New docker image creation:
 * mvn clean spring-boot:build-image
 * docker login
 * docker push sorokinandrey/traveller_storage:0.0.1
+* 
+* Optional steps:
+* docker tag sorokinandrey/traveller_storage:0.0.1 sorokinandrey/traveller_storage:latest
+* docker push sorokinandrey/traveller_storage:latest
