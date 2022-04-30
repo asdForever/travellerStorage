@@ -35,6 +35,3 @@ New docker image creation:
 * docker tag traveller_storage:0.0.1 sorokinandrey/traveller_storage:0.0.1
 * docker login
 * docker push sorokinandrey/traveller_storage:0.0.1
-
-Run application:
-* docker-compose up --build
