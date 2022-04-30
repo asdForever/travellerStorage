@@ -96,6 +96,7 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <addResources>true</addResources>
                     <image>
                         <name>sorokinandrey/${project.name}:${project.version}</name>
                     </image>
