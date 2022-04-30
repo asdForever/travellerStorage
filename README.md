@@ -29,7 +29,6 @@ It will parse the data from the static files and transfer it via RabbitMQ.
 ### Guides
 
 New docker image creation:
-* mvn clean install
-* DOCKER_BUILDKIT=1 docker build . -t sorokinandrey/traveller_storage:0.0.1
+* mvn spring-boot:build-image
 * docker login
 * docker push sorokinandrey/traveller_storage:0.0.1
